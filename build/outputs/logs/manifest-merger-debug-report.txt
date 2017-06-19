@@ -1,0 +1,62 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:18:1-45:12
+	package
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:19:5-34
+	xmlns:android
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:18:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:22:5-60
+	android:name
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:22:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:23:5-70
+	android:name
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:23:19-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:24:22-78
+uses-sdk
+ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:26:5-28:41
+	android:targetSdkVersion
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:28:9-38
+	android:minSdkVersion
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:27:9-35
+application
+ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:30:5-43:19
+MERGED from [org.tensorflow:tensorflow-android:1.2.0-preview] C:\Users\anura\.android\build-cache\f3d75bda5ccf121d4a87331bfb32751605a833f6\output\AndroidManifest.xml:5:5-6:19
+	android:label
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:31:9-41
+	android:allowBackup
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:30:18-44
+	android:icon
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:32:9-45
+	android:theme
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:33:9-45
+activity#org.tensorflow.demo.StylizeActivity
+ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:35:9-42:20
+	android:screenOrientation
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:36:19-55
+	android:label
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:37:19-64
+	android:name
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:35:19-69
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:38:13-41:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:40:27-74
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:18:1-45:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\anura\AndroidStudioProjects\android-tensor\AndroidManifest.xml:18:1-45:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE

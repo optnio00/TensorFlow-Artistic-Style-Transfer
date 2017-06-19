@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\anura\AndroidStudioProjects\android-tensor\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\anura\AndroidStudioProjects\android-tensor\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ae5b2db2b2a80ee48a99cd871f1e3533c1d53a79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anura\.android\build-cache\f3d75bda5ccf121d4a87331bfb32751605a833f6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="547326950573bb73d6064506e003a201045b2bd7">
+        <dex dex="C:\Users\anura\AndroidStudioProjects\android-tensor\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c63bbd4c7e54eef4abc3c41cef5925894dba2f75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anura\AndroidStudioProjects\android-tensor\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e1d171ece30752fd22c3d1395eb8376c45c4ea0c">
+        <dex dex="C:\Users\anura\AndroidStudioProjects\android-tensor\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1cab20201c24faf9df0e631a5daaa63513fb3364\classes.dex" />
+    </item>
+
+</items>
